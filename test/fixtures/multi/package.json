@@ -1,0 +1,17 @@
+{
+  "name": "lyndon-test",
+  "version": "0.0.0",
+  "private": true,
+  "lyndon": {
+    "guidances": "./src/guidances",
+    "hooks": {
+      "foo": "./src/hooks/foo"
+    }
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/src"
+  ]
+}
