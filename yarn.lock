@@ -334,6 +334,15 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
+eslint-config-lyndon@latest:
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/eslint-config-lyndon/-/eslint-config-lyndon-0.4.9.tgz#299cdaa95d628e08ec37589b1b9877048683eac6"
+  dependencies:
+    eslint-config-xo-space "^0.18.0"
+    eslint-plugin-mocha "^4.12.1"
+    eslint-plugin-node "^6.0.1"
+    eslint-plugin-unicorn "^4.0.2"
+
 eslint-config-xo-space@^0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/eslint-config-xo-space/-/eslint-config-xo-space-0.18.0.tgz#92c8130b1ebaad9162bb822fdc8bc8e9f4fa5b8a"
@@ -805,30 +814,21 @@ lyndon-errors@latest:
     strip-ansi "^4.0.0"
     wrap-ansi "^3.0.1"
 
-lyndon-eslint-config@latest:
-  version "0.4.7"
-  resolved "https://registry.yarnpkg.com/lyndon-eslint-config/-/lyndon-eslint-config-0.4.7.tgz#2995e07221b93715501f0ae96142b027fae42c4f"
-  dependencies:
-    eslint-config-xo-space "^0.18.0"
-    eslint-plugin-mocha "^4.12.1"
-    eslint-plugin-node "^6.0.1"
-    eslint-plugin-unicorn "^4.0.2"
-
 lyndon-linewrap@latest:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/lyndon-linewrap/-/lyndon-linewrap-1.0.0.tgz#9109cbc2ce7b53fbba7cb256ee61e2d0c408f6aa"
 
 lyndon-read@latest:
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/lyndon-read/-/lyndon-read-0.5.3.tgz#de225cd5a440bf3153529b289401fd446566732e"
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/lyndon-read/-/lyndon-read-0.5.4.tgz#1726e74bef7104e72c03f57685a0a499ffdc5b60"
   dependencies:
     chalk "^2.4.0"
-    lyndon-eslint-config latest
+    eslint-config-lyndon latest
     lyndon-linewrap latest
 
 lyndon-test@latest:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/lyndon-test/-/lyndon-test-0.3.7.tgz#55181243fc53d8f85d3fbe91402637053434855b"
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/lyndon-test/-/lyndon-test-0.3.8.tgz#775fa638f90670d309a119647c51a65fa5ede161"
   dependencies:
     fancy-test "^1.0.5"
 
