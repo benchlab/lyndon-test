@@ -8,7 +8,8 @@
   ],
   "bugs": "https://github.com/lyndon/test/issues",
   "dependencies": {
-    "fancy-test": "^1.0.5"
+    "fancy-test": "^1.0.5",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@types/chai": "^4.1.2",
@@ -43,7 +44,10 @@
     "lint": "tsc -p test --noEmit && tslint -p test -t stylish",
     "posttest": "yarn run lint",
     "prepublishOnly": "yarn run build",
-    "test": "mocha --forbid-only \"test/**/*.test.ts\""
+    "test": "mocha --forbid-only \"test/**/*.test.ts\"",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
-  "types": "lib/index.d.ts"
+  "types": "lib/index.d.ts",
+  "snyk": true
 }
